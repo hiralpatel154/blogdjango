@@ -13,8 +13,8 @@
 </small>  
 {% if user.is_authenticated %}
 
-<small><b><a href="{% url 'update_post' post.pk %}" class="text-success"> Edit </a></b>
-<b><a href="{% url 'delete_post' post.pk %}" class="text-danger">  Delete</a></b></small>
+<small><b><a href="{% url 'update_post' post.pk %}" class="text-success"> Edit Post </a></b>
+<b><a href="{% url 'delete_post' post.pk %}" class="text-danger">  Delete Post</a></b></small>
 <br />
 {% endif %}
 <hr>
